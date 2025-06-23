@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1VY812f_D3AV21Cdsl4Wkv_pxYSufdFBc
 """
 
-pip install llama-index-llms-google-genai
+pip install -r requirements.txt
 
 from pydantic import BaseModel
 from llama_index.llms.google_genai import GoogleGenAI
